@@ -1,0 +1,7 @@
+void main() {
+  /* this varible is what you will say 1000 times, the quotations are mandatory*/
+  var thing = "what would you like to say?";
+  for (int i = 0; /* this is how many times it will run*/ i < 1000; i++) {
+    print('$thing x ${i + 1}');
+  }
+}
